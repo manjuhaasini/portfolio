@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Work | Manju Haasini</title>
+    <meta name="description" content="Explore Manju Haasini's work across finance, business operations, entrepreneurship, machine learning, data analytics, marketing and website development.">
+    <meta name="author" content="Manju Haasini">
+    <meta name="theme-color" content="#f7f8f6">
+
+    <script>
+        try {
+            var t = localStorage.getItem("theme");
+            if (t) document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="wrap header-inner">
+
+            <a href="index.html" class="logo">Manju Haasini</a>
+
+            <nav class="site-nav" id="site-nav" aria-label="Main">
+                <a href="work.html">Work</a>
+                <a href="leadership.html">Leadership</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode">
+                    <span class="theme-icon" aria-hidden="true"></span>
+                </button>
+
+                <button class="menu-toggle" id="menu-toggle" type="button"
+                    aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+                    <span></span><span></span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main id="main">
+
+        <!-- PAGE HEAD -->
+        <section class="page-head wrap">
+            <h1>Work</h1>
+            <p class="lede">
+                A collection of experiences and projects across business, finance, data, technology and entrepreneurship.
+            </p>
+        </section>
+
+
+        <!-- PROJECT LIST -->
+        <section class="wrap work-section">
+
+            <div class="filters" role="group" aria-label="Filter projects by type">
+                <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+                <button class="filter" type="button" data-filter="finance" aria-pressed="false">Finance</button>
+                <button class="filter" type="button" data-filter="venture" aria-pressed="false">Entrepreneurship</button>
+                <button class="filter" type="button" data-filter="tech" aria-pressed="false">Tech</button>
+                <button class="filter" type="button" data-filter="marketing" aria-pressed="false">Marketing</button>
+                <button class="filter" type="button" data-filter="strategy" aria-pressed="false">Strategy</button>
+            </div>
+
+            <ul class="work-list" id="work-list">
+
+                <!-- ATHULITHA -->
+                <li data-kind="finance">
+                    <details class="project" id="athulitha">
+                        <summary class="work-row">
+                            <span class="work-kind">Finance</span>
+                            <span class="work-body">
+                                <strong>Athulitha Laboratories</strong>
+                                <span>Finance & Operations Intern · May–July 2026</span>
+                            </span>
+                        </summary>
+
+                        <dl class="project-detail">
+                            <div>
+                                <dt>The company</dt>
+                                <dd>Athulitha Laboratories Pvt. Ltd. is a pharmaceutical manufacturer specialising in active pharmaceutical ingredients (APIs) for the veterinary segment.</dd>
+                            </div>
+                            <div>
+                                <dt>My part</dt>
+                                <dd>Built a three-year Excel financial analysis model (FY22–FY25), using common-size analysis, year-on-year growth and CAGR to evaluate the company's cost structure, profitability and financial performance.
+
+Analysed financial statements and identified a 13.5-percentage-point decline in EBITDA margin, from 25.9% to 12.4%, alongside an increase in material costs from 38.6% to 60.0% of revenue.
+
+Evaluated five major cost heads and product-costing methodologies, identifying 68% year-on-year growth in employee costs against 14% revenue growth in FY25.
+
+Reviewed MIS reporting and finance-related processes across procurement, inventory and production, gaining exposure to GST, TDS, EPF and ESI.</dd>
+                            </div>
+                            <!-- ADD: what the CAGR / model showed, in one or two sentences with a number -->
+                            <div>
+                                <dt>Tools & Concepts</dt>
+                                <dd>Microsoft Excel · Financial Modelling · Common-Size Analysis · YoY Growth · CAGR · Cost Analysis</dd>
+                            </div>
+                        </dl>
+                    </details>
+                </li>
+                <!-- HR ATTRITION -->
+                <li data-kind="tech">
+                    <details class="project" id="hr-attrition">
+                        <summary class="work-row">
+                            <span class="work-kind">Tech</span>
+                            <span class="work-body">
+                                <strong>HR attrition prediction</strong>
+                                <span>Full-Stack Machine Learning Application</span>
+                            </span>
+                        </summary>
+
+                        <dl class="project-detail">
+                            <div>
+                                <dt>The project</dt>
+                                <dd>Developed an end-to-end employee attrition intelligence application that combines machine learning, interactive analytics and database integration to help HR teams explore workforce attrition patterns and assess employee attrition risk.</dd>
+                            </div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd> Built and deployed a Streamlit-based application using the IBM HR Analytics dataset (1,470 employee records). Compared seven machine learning models using cross-validation and evaluation metrics, selecting a Lasso-based model with a mean CV ROC-AUC of 0.8361.
+
+Developed an interactive HR dashboard with employee-level attrition predictions, probability scores, department-wise analytics and workforce insights. Integrated Supabase as the PostgreSQL backend to manage employee records, prediction history and audit logs. Implemented functionality for authorised administrators to add and update employee records and generate new predictions.</dd>
+                            </div>
+                            <!-- ADD: model accuracy / recall and the top factors you found -->
+                            <div>
+                                <dt>Technology Stack</dt>
+                                <dd>Python · Streamlit · Supabase · PostgreSQL · Pandas · NumPy · Scikit-learn · Joblib · GitHub</dd>
+                            </div>
+                        </dl>
+                    </details>
+                </li>
+                <!-- GROW AT HOME CUP -->
+                <li data-kind="venture">
+                    <details class="project" id="grow-at-home-cup">
+                        <summary class="work-row">
+                            <span class="work-kind">Entrepreneurship</span>
+                            <span class="work-body">
+                                <strong>₹0 Venture Challenge — Crochet Pop-up Stall</strong>
+                                <span>Entrepreneurship Challenge </span>
+                            </span>
+                        </summary>
+
+                        <dl class="project-detail">
+                            <div>
+                                <dt>The opportunity</dt>
+                                <dd>As part of a two-hour, zero-investment venture challenge, I identified an opportunity to help a friend sell her unsold handmade crochet products. She had leftover inventory from a college stall, which I saw as an opportunity to create a small resale venture without investing in product development or inventory.
+
+</dd>
+                            </div>
+                            <div>
+                                <dt>My Approach</dt>
+                                <dd>I arranged to take the products on a consignment basis, retaining my friend's agreed price and adding a small margin to each item. I set up a pop-up stall in my residential community between 6:30 PM and 8:30 PM, targeting the evening period with higher footfall. I handled the stall setup, pricing, customer interactions and sales, then settled the agreed amount with the original maker.</dd>
+                            </div>
+                            <div>
+                                <dt>Results</dt>
+                                <dd>₹0 initial investment.
+                                ₹4,625 in total sales.
+                                ₹825 profit.
+                                Nearly 20 pieces sold within two hours.</dd>
+                            </div>
+                            <div>
+                                <dt>Skills</dt>
+                                <dd>Opportunity Identification · Zero-Capital Business Models · Consignment-Based Selling · Pricing Strategy · Inventory Utilisation · Customer Engagement</dd>
+                            </div>
+                        </dl>
+                    </details>
+                </li>
+
+
+                <!-- CLTV & COHORT ANALYSIS -->
+<li data-kind="tech">
+    <details class="project" id="cltv-cohort-analysis">
+        <summary class="work-row">
+            <span class="work-kind">Tech</span>
+            <span class="work-body">
+                <strong>Customer Lifetime Value &amp; Cohort Analysis</strong>
+                <span>Business &amp; Customer Analytics</span>
+            </span>
+        </summary>
+
+        <dl class="project-detail">
+            <div>
+                <dt>The objective</dt>
+                <dd>Analyse retail transaction data to understand customer purchasing behaviour, retention patterns and long-term customer value.</dd>
+            </div>
+            <div>
+                <dt>My contribution</dt>
+                <dd>Analysed over 371,000 retail transactions using Microsoft Excel, PivotTables and cohort analysis. Examined customer purchasing patterns and retention across cohorts, and calculated a Revenue-based Customer Lifetime Value (CLTV) of ₹278.5.</dd>
+            </div>
+            <div>
+                <dt>Key finding</dt>
+                <dd>
+                    371K+ retail transactions analysed.<br>
+                    ₹278.5 Revenue CLTV calculated.
+                </dd>
+            </div>
+            <div>
+                <dt>Tools &amp; Concepts</dt>
+                <dd>Microsoft Excel · PivotTables · Cohort Analysis · Customer Segmentation · Customer Lifetime Value · Data Analysis</dd>
+            </div>
+        </dl>
+    </details>
+</li>
+<!-- AMUL PROTEIN SHAKE -->
+<li data-kind="strategy">
+    <details class="project" id="amul-protein-shake">
+        <summary class="work-row">
+            <span class="work-kind">Strategy</span>
+            <span class="work-body">
+                <strong>Amul Protein Shake Launch Analysis</strong>
+                <span>Market Entry &amp; Business Strategy · Quantitative Business Methods</span>
+            </span>
+        </summary>
+
+        <dl class="project-detail">
+            <div>
+                <dt>The objective</dt>
+                <dd>Evaluate the feasibility of Amul launching a protein shake product by assessing market demand, profitability and potential market-entry strategies.</dd>
+            </div>
+            <div>
+                <dt>My contribution</dt>
+                <dd>Analysed the proposed product opportunity, evaluated market demand and profitability considerations, and developed a data-backed recommendation on the product’s potential positioning and launch strategy.</dd>
+            </div>
+            <div>
+                <dt>Skills &amp; Concepts</dt>
+                <dd>Market Research · Quantitative Analysis · Profitability Analysis · Market Entry Strategy </dd>
+            </div>
+        </dl>
+    </details>
+</li>
+            
+
+                <!-- SIRI FOODS -->
+                <li data-kind="tech">
+                    <details class="project" id="siri-foods">
+                        <summary class="work-row">
+                            <span class="work-kind">Tech</span>
+                            <span class="work-body">
+                                <strong>Siri Foods — Business Website</strong>
+                                <span>Website Development Project</span>
+                            </span>
+                        </summary>
+
+                        <dl class="project-detail">
+                            <div>
+                                <dt>The objective</dt>
+                                <dd>Build a digital storefront for a food-products business, enabling customers to explore products, view pack sizes and prices, and place orders conveniently.</dd>
+                            </div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Designed and developed a responsive, multi-page website using HTML, CSS, JavaScript and Bootstrap. Implemented product listings with different pack sizes, an interactive shopping cart with quantity selection, and a WhatsApp-based checkout flow to simplify order placement without requiring a payment gateway.</dd>
+                            </div>
+                            <div>
+                                <dt>Technology stack</dt>
+                                <dd>HTML · CSS · JavaScript · Bootstrap 5.3.8 · GitHub</dd>
+                            </div>
+                        </dl>
+                    </details>
+                </li>
+                <!-- IOCL -->
+                <li data-kind="finance">
+                    <details class="project" id="iocl">
+                        <summary class="work-row">
+                            <span class="work-kind">Finance</span>
+                            <span class="work-body">
+                                <strong>Indian Oil Corporation (IOCL) — Financial Statement Analysis</strong>
+                                <span>Financial Analysis Project</span>
+                            </span>
+                        </summary>
+
+                        <dl class="project-detail">
+                            <div>
+                                <dt>The objective</dt>
+                                <dd>Evaluate Indian Oil Corporation's financial performance and position through an analysis of its Profit & Loss Statement and Balance Sheet, supported by financial ratio analysis.</dd>
+                            </div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Analysed the company's financial statements and calculated key financial ratios to assess profitability, liquidity, solvency and operational efficiency. Interpreted the findings against industry benchmarks to evaluate IOCL's financial health, identify performance trends and draw conclusions about its overall financial position.</dd>
+                            </div>
+                            <!-- ADD: one or two findings (e.g. a margin, leverage or growth trend) -->
+                            <div>
+                                <dt>Skills</dt>
+                                <dd>Financial Statement Analysis · Ratio Analysis · Financial Interpretation</dd>
+                            </div>
+                        </dl>
+                    </details>
+                </li>
+                <!-- NOMORE -->
+                <li data-kind="marketing">
+                    <details class="project" id="nomore">
+                        <summary class="work-row">
+                            <span class="work-kind">Marketing</span>
+                            <span class="work-body">
+                                <strong>NO MORE — Social Media Marketing Strategy</strong>
+                                <span>Digital Marketing & Brand Strategy</span>
+                            </span>
+                        </summary>
+
+                        <dl class="project-detail">
+                            <div>
+                                <dt>The objective</dt>
+                                <dd>Develop a comprehensive social media marketing strategy for NO MORE, an upcycled fashion accessories brand, to strengthen brand awareness, build community engagement and improve engagement-to-conversion.</dd>
+                            </div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Collaborated with a five-member team to analyse the brand's positioning, existing social media presence, strengths and growth opportunities. Contributed to developing an audience segmentation and targeting strategy, platform recommendations across Instagram, YouTube, Pinterest and LinkedIn, and content pillars tailored to each platform.
+
+The strategy also covered creator collaborations, user-generated content, paid advertising, performance KPIs, crisis management and a quarterly campaign roadmap.</dd>
+                            </div>
+                            <!-- ADD: your specific role, the core idea, and any reach or grade -->
+                            <div>
+                                <dt>Skills & Concepts</dt>
+                                <dd>Social Media Strategy · Market Segmentation · Brand Positioning ·  Digital Advertising</dd>
+                            </div>
+                        </dl>
+                    </details>
+                </li>
+
+            </ul>
+
+            <p class="empty-note" id="empty-note" hidden>More projects coming soon.</p>
+
+        </section>
+
+
+        <!-- CONTACT BAND -->
+        <section class="contact-band">
+            <div class="wrap contact-band-inner">
+
+                <h2>Something here caught your interest?</h2>
+
+                <div class="button-row">
+                    <a href="mailto:manjuhaasini6689@gmail.com" class="btn btn-light">Email me</a>
+                    <a href="https://www.linkedin.com/in/manjuhaasini" class="btn btn-outline-light"
+                        target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p>© 2026 Manju Haasini</p>
+            <a href="#main" class="back-to-top">Back to top</a>
+        </div>
+    </footer>
+
+</body>
+</html>
